@@ -1,0 +1,55 @@
+body {
+    background-color: #e9dada;
+}
+.header {
+    background-image: linear-gradient(rgb(219, 27, 129), rgb(27, 15, 189));
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #db2626;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.footer {
+    background-image: linear-gradient(rgb(224, 26, 59),rgb(216, 93, 27));
+    color: #fff;
+    padding: 5px;
+    position: flex;
+    bottom: 1px;
+    width: 100%;
+}
+.content {
+    padding: 20px;
+}
+.u1 a{
+color: orange;
+
+}
+.u1 #l1{
+color: orange;
+
+}
+ul li::before {
+content: "\2022";
+color: rgb(0, 0, 0);
+font-weight: bold;
+display: inline-block; 
+width: 1em;
+margin-left: -21px;
+}
+.u1 li{
+padding-top: 1px;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+list-style-type: none;
+}
